@@ -10,6 +10,7 @@ export const Log = () => {
            
 
             <img src={UrlImage.LogIcon} className='Svg' />
+            
 
         </div>
     )

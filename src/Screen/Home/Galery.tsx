@@ -36,9 +36,9 @@ export const Galery = () => {
 
 
     return (
-        <div className="flex content align-items flexwrap padding">
+        <div className="flex content align-items flexwrap padding " id="blog">
 
-            <div className="box flex content align-items flex-column">
+            <div className="__Card mar flex content align-items flex-column">
                 <h2 className="font-test titlename colorscreenx">{TheGalery.title}</h2>
                 <div className="mar">
                     <p className="des font-family-des colorscreenx ext-align"> {TheGalery.des} </p>
@@ -47,10 +47,10 @@ export const Galery = () => {
             </div>
 
 
-            <div className="width flex justify-content align-items flexwrap">
+            <div className="width flex justify-content align-items flexwrap mar padding">
 
                 {TheGalery.data.map((item, index) => (
-                    <div key={index} className="__Card flex content align-items flex-column backgroundscreen mar border-radiusscreen overflow">
+                    <div key={index} className="__Card flex content align-items flex-column  mar border-radiusscreen overflow box-shadow">
                         <img src={item.image} width='100%' height='200px' />
                         <div className="padding">
                             <h2 className="name font-test colorscreenx ext-align">{item.name}</h2>

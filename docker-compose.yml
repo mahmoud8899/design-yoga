@@ -1,7 +1,7 @@
 version: '3'
 services:
    node-app:
-    container_name: design-fitness
+    container_name: design-yoga
     build: 
       context: .
       dockerfile: Dockerfile

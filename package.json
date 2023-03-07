@@ -9,8 +9,7 @@
     "server:build": "webpack --config webpack/webpack.build.js --mode production --watch",
     "server:run": "nodemon ./build/server.js node",
     "dev": "npm-run-all --parallel  server:*",
-    "docker:run" : "nodemon ./build/server.js node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docker:run": "nodemon ./build/server.js node"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +25,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-lazy-load-image-component": "^1.5.6",
+    "react-player": "^2.11.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-merge": "^5.8.0"

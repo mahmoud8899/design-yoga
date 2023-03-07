@@ -14,28 +14,28 @@ const About = {
     sint occaecat cupidatat.
     `,
     button: 'join us now',
-    image: UrlImage.SecandScreen
+    image: UrlImage.OneScreen
 }
 
 
-export const TheAbout = () =>{
+export const TheAbout = () => {
 
 
     return (
-        <div className="flex justify-content align-items flexwrap backgroundanther padding">
+        <div className="flex justify-content align-items flexwrap  padding addImage">
 
-        <div className="box padding">
-            <h2 className="font-test titlename colorscreenx">{About.title}</h2>
-            <h2 className="font-test titlename colorscreenx">{About.title2}</h2>
-            <div className="mar">
-                <p className="des font-family-des colorscreenx">{About.des}</p>
-            </div>
+            <div className="box padding mar">
+                <h2 className="font-test titlename colorscreenx">{About.title}</h2>
+                <h2 className="font-test titlename colorscreenx">{About.title2}</h2>
+                <div className="mar">
+                    <p className="des font-family-des colorscreenx">{About.des}</p>
+                </div>
 
 
-            <div className='mar'>
-                <TheButtom
-                    Title={About.button}
-                    Classname='
+                <div className='mar'>
+                    <TheButtom
+                        Title={About.button}
+                        Classname='
             cursor
     buttom
      backgroundscreen
@@ -44,12 +44,19 @@ export const TheAbout = () =>{
        font-family-des
        colorscreenx
          outline'
-                />
+                    />
+                </div>
             </div>
+
+            <div className="box mar flex flex-end padding">
+
+                <div className="border-radiusscreen">
+                    <img src={About.image} width='100%' height='auto' />
+                </div>
+
+            </div>
+
+
         </div>
-        <div className="box padding flex">
-            <img src={About.image} className='imageYoga' />
-        </div>
-    </div>
     )
 }

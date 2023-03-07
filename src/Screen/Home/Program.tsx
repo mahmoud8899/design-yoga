@@ -33,7 +33,7 @@ export const TheProgram = () =>{
 
     return (
 
-        <div className="flex content align-items flexwrap  padding">
+        <div className="flex content align-items flexwrap  padding"  id="event">
         {Program?.map((item, index) => (
             <div className="__Card flex flex-column align-items content padding" key={index}>
 

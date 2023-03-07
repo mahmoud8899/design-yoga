@@ -11,7 +11,8 @@ import Yoga6 from '../../images/9.png'
 import Yoga7 from '../../images/10.jpeg'
 import Yoga8 from '../../images/11.jpeg'
 import Yoga9 from '../../images/13.jpeg'
-
+import Phone from '../../images/icons/2.png'
+import Back from '../../images/icons/3.png'
 
 interface UrlType {
     LogIcon: string,
@@ -26,6 +27,8 @@ interface UrlType {
     Yoga7: string,
     Yoga8: string,
     Yoga9: string,
+    Back: string,
+    Phone : string
 
 
 }
@@ -45,6 +48,8 @@ export const UrlImage: UrlType = {
     Yoga7: Yoga7,
     Yoga8: Yoga8,
     Yoga9: Yoga9,
+    Phone :Phone,
+Back:Back
 
 
 } 

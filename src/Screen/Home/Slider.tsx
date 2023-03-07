@@ -18,20 +18,22 @@ export const Slider = () =>{
 
 
     return (
-        <div className="flex justify-content align-items flexwrap padding">
+        <div className="flex justify-content align-items flexwrap padding"  id="about">
 
 
 
-        <div className="box ">
 
-           <div className="backgroundscreen border-radiusscreen">
-           <img src={Data.image} width='90%' height='auto' className="margin-auto" />
+
+        <div className="box mar flex flex-end padding">
+
+           <div className="border-radiusscreen">
+           <img src={Data.image} width='100%' height='auto'  />
            </div>
 
         </div>
 
 
-        <div className="box flex flex-column ">
+        <div className="box flex flex-column mar">
 
 
 

@@ -18,9 +18,9 @@ export const TheBreathing = () => {
 
 
     return (
-        <div className="flex align-items justify-content flexwrap padding">
+        <div className="flex align-items justify-content flexwrap padding ">
 
-            <div className="box flex flex-column Order __margin__top_bootom">
+            <div className="box flex flex-column Order mar">
                 <h2 className="font-test titlename colorscreenx">{IBreathing.title}</h2>
                 <h2 className="font-test titlename colorscreenx">{IBreathing.title2}</h2>
                 <div className="mar">
@@ -47,14 +47,18 @@ export const TheBreathing = () => {
 
             </div>
 
-            <div className="box __margin__top_bootom">
-                <img
-                    src={IBreathing.image}
+
+            <div className="box mar flex flex-end" >
+
+                <img src={IBreathing.image}
                     width='100%'
                     height='auto'
-                    className="border-radiusscreen"
+                    className='ImageSize border-radiusscreen box-shadow'
+
                 />
+
             </div>
+
 
         </div>
 

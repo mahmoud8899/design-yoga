@@ -1,7 +1,7 @@
 
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
@@ -38,20 +38,17 @@ module.exports = {
         }
       },
       {
-
-        test: [/\.svg$/, /\.gif$/, /\.jpe?g$/, /\.png$/,/.webp$/,/.ico$/],
-          loader: "file-loader",
-          options : {
-              name: "/image/[name].[contenthash].[ext]",
-              publicPath: url => url.replace(/public/, "")
-          }
-
+        test: /\.css$/,
+        use: ['style-loader', "css-loader"],
       },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"],
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        type: 'asset/resource',
       },
-
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+        type: 'asset/inline',
+      },
     ]
   },
 
@@ -60,7 +57,7 @@ module.exports = {
     filename: './client/bundle.js'
   },
   plugins: [
-    new MiniCssExtractPlugin({ filename: './css/[name].css'}),
+   
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '..', './src/public/index.html'),
 
@@ -72,5 +69,6 @@ module.exports = {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000
   },
+  stats: 'errors-only',
 
 }

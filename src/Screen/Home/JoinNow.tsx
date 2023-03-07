@@ -18,13 +18,20 @@ export const JoinNow = () => {
 
 
     return (
-        <div className="flex justify-content align-items flexwrap padding backgroundanther">
+        <div className="flex justify-content align-items flexwrap padding ">
 
-            <div className='box ' >
-                <img src={Join.image} width='100%' height='auto' />
+            <div className="box mar flex flex-end" >
+
+              <img src={Join.image} 
+                width='100%' 
+                height='auto'
+                className='ImageSize'
+                
+                />
+            
             </div>
 
-            <div className="box flex flex-column ">
+            <div className="box flex flex-column  mar">
 
 
 
