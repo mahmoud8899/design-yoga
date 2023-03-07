@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Log } from './Log';
 import { TheListNavBar } from './ListNavBar';
-import { NavBardata } from '../../components/data/index'
-
 
 interface TypeProps {
     tilte?: string

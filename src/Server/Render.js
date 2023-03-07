@@ -20,14 +20,18 @@ export default function Render() {
     <meta property="og:image" content=${UrlImage.LogIcon}  />
     <meta property="og:image:url"  content=${UrlImage.LogIcon}  />
     <meta property="twitter:image" content=${UrlImage.LogIcon}  />
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="icon" type="image/x-icon" href=${UrlImage.LogIcon}>
     <link rel="canonical" href="/" />
    </head>
     <body >
-     <div id="fitness">
+     <div id="yoga">
          ${User}
       </div>
       <script src="./client/bundle.js" defer ></script>
