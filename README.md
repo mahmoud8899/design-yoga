@@ -10,4 +10,4 @@ https://yoga-7sez.onrender.com/
 
 
 
-![1](https://raw.githubusercontent.com/mahmoud8899/design-yoga/main/design/desgin.png)
+![1](https://raw.githubusercontent.com/mahmoud8899/design-yoga/main/desgin/zp.png)
