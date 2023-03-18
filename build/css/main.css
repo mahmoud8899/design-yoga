@@ -1,7 +1,25 @@
+/* new colro  */
+
+/* buttom     color: #fc12809c; */
+
 * {
     padding: 0rem;
     margin: 0rem;
-    perspective: 500px;
+    /* perspective: 500px; */
+}
+.ppp{
+    width: 45%;
+}
+.icons_x{
+    background: #fc1280b5;
+    padding: 0.2rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 18px;
+}
+
+.allcolor {
+    color :#fc1280
 }
 html {
     scroll-behavior: smooth;
@@ -16,7 +34,7 @@ body {
 }
 
 .FirstEL::first-letter{
-color: #f1cec7;
+color: #fc1280;
 font-size: 60px;
 }
 
@@ -84,14 +102,20 @@ font-size: 60px;
 .font-test {
     font-family: 'Merriweather Sans', sans-serif;
 }
+.FONT-FAMILY-NEW {
+    font-family: 'Rowdies', cursive;
+}
 .font-family-title {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .font-family-des {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
+.firsttitle {
+    font-size: 60px;
+}
 .title {
     font-size: 50px;
 }
@@ -122,6 +146,9 @@ ul {
 }
 .margin-l{
     margin-left: 0.9rem;
+}
+.mar__{
+    margin-left: 0.4rem;
 }
 .padding__left {
     padding-left: 0.6rem;
@@ -156,10 +183,7 @@ ul {
     outline: none;
     border: none;
 }
-.extra:hover {
-    background: #f1cec7;
-    color: white;
-}
+
 
 .iconwidth {
     width: 90px;
@@ -179,7 +203,7 @@ ul {
 
 
 .colorscreenx {
-    color: #434d5a;
+    color: #fc1280b5;
 }
 
 .margin-right {
@@ -202,7 +226,7 @@ ul {
 }
 
 .backgroundscreen {
-    background: #f1cec7
+    background: #fc1280
 }
 
 .whitebackground {
@@ -250,6 +274,11 @@ ul {
 
 .flex.flex-column.ChangeXp a li{
     color: white;
+}
+
+.addnewsity {
+    border-radius: 54% 46% 48% 52% / 91% 67% 33% 9%;
+    background-image: linear-gradient(45deg,#3023AE 0%,#FF0099 100%);
 }
 .flexwrap {
     flex-wrap: wrap;
@@ -367,6 +396,21 @@ ul a {
     background-color: #000;
 }
 @media only screen and (max-width: 980px) {
+    .change__{
+        margin: 0rem auto;
+    }
+    .Order{
+        order: 1;
+    }
+    .firsttitle.FONT-FAMILY-NEW.allcolor{
+        text-align: center;
+    }
+
+    .__CHANGE{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
     
     .FlexSize{
         display: flex;
@@ -458,7 +502,7 @@ ul a {
     .menu-btn__burger {
         width: 30px;
         height: 5px;
-        background: #f1cec7;
+        background: #fc1280;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
         transition: all .5s ease-in-out;
@@ -471,7 +515,7 @@ ul a {
         position: absolute;
         width: 30px;
         height: 5px;
-        background: #f1cec7;
+        background: #fc1280;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
         transition: all .5s ease-in-out;

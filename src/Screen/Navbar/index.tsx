@@ -42,13 +42,13 @@ export const NavBar = (props: TypeProps) => {
     return (
 
 
-        <nav className='flex  align-items flexwrap '>
+        <nav className='flex  align-items flexwrap'>
 
 
             <div className='__Card flex align-items padding'>
 
                 <div className='flex align-items flex-column'>
-                    <Log />
+      
                     <h2 className='font-test titlename colorscreenx FirstEL'>Yoga Ep</h2>
                 </div>
 
@@ -63,12 +63,14 @@ export const NavBar = (props: TypeProps) => {
 
             </div>
 
-            <div className='__Card padding '>
-                <div className={css.hidden}>
+            <div className='padding '>
+               
+               <div className={css.hidden}>
+               <TheListNavBar />
+               </div>
 
-
-                    <TheListNavBar />
-                </div>
+                   
+           
 
             </div>
 
